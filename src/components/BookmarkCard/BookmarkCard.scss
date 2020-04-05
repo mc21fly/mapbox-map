@@ -1,0 +1,25 @@
+.card {
+    min-width: 380px;
+    flex-basis: 30%;
+    position: relative;
+
+    .image {
+        position: relative;
+    }
+    
+    img {
+        border-radius: 5px 5px 0px 0px ;
+    }
+
+    .dot {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(249, 99, 50);;
+        box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    }
+}
